@@ -161,7 +161,7 @@ class LandingPage extends Component {
           <meta name="theme-color" content={theme.palette.primary.main} />
           <meta name="apple-mobile-web-app-status-bar-style" content={theme.palette.primary.main} />
           <meta name="msapplication-navbutton-color" content={theme.palette.primary.main} />
-          <title>REACT MOST WANTED</title>
+          <title>KWESTION ME</title>
         </Helmet>
         <AppBar position='static'>
           <Toolbar disableGutters>
@@ -183,7 +183,7 @@ class LandingPage extends Component {
                 name='github'
                 aria-label='Open Github'
                 color='inherit'
-                href='https://github.com/TarikHuber/react-most-wanted'
+                href='https://weWillCode.com'
                 target='_blank'
                 rel='noopener'
               >
@@ -212,7 +212,7 @@ class LandingPage extends Component {
                   gutterBottom
                   className={classes.title}
                 >
-                  {'REACT MOST WANTED'}
+                  {'KWESTION ME'}
                 </Typography>
                 <Typography
                   variant='headline'
@@ -221,7 +221,7 @@ class LandingPage extends Component {
                   gutterBottom
                   className={classes.headline}
                 >
-                  {'React Starter-Kit with all Most Wanted features.'}
+                  {'A Simple Question App That Graphs Likes and Dislikes with those you call friends.'}
                 </Typography>
                 <Button
                   onClick={() => { history.push('/signin') }}
@@ -236,15 +236,15 @@ class LandingPage extends Component {
               <div className={classes.cardsContent}>
                 <Card className={classes.card}>
                   <CardContent>
-                    <Typography variant="headline" component="h2">Installation</Typography>
+                    <Typography variant="headline" component="h2">Kwestion-Me</Typography>
                     <br />
-                    <Typography  >{`Just run this script to start:`}</Typography>
+                    <Typography  >{`Life is about questions and getting to know each other.  Kwestion-Me does just that.`}</Typography>
                     <br />
                     <Typography className={classes.pos} color="textSecondary"> npx create-react-app test-app --scripts-version rmw-react-scripts   </Typography>
                   </CardContent>
                   <CardActions>
                     <Button size="small" onClick={() => {
-                      var win = window.open('https://github.com/TarikHuber/rmw-shell', '_blank')
+                      var win = window.open('https://github.com/josemoreno90/kwestion-me', '_blank')
                       win.focus();
                     }} >Learn More</Button>
                   </CardActions>
@@ -253,17 +253,12 @@ class LandingPage extends Component {
                   <CardContent>
                     <Typography variant="headline" component="h2">Usage</Typography>
                     <br />
-                    <Typography  >{`Set your configuration to the App component:`}</Typography>
+                    <Typography  >{`You will be suprised at what you have in common with those in your life, and how different we can be than those closest to us`}</Typography>
                     <br />
-                    <Typography className={classes.pos} color="textSecondary">
-                      {`import App from 'rmw-shell'`}
-                      <br />
-                      {`<App appConfig={{ configureStore, ...config }} />`}
-                    </Typography>
                   </CardContent>
                   <CardActions>
                     <Button size="small" onClick={() => {
-                      var win = window.open('https://github.com/TarikHuber/react-most-wanted', '_blank')
+                      var win = window.open('https://github.com/josemoreno90/kwestion-me', '_blank')
                       win.focus();
                     }} >Learn More</Button>
                   </CardActions>
@@ -272,11 +267,9 @@ class LandingPage extends Component {
                   <CardContent>
                     <Typography variant="headline" component="h2">What is this?</Typography>
                     <Typography noWrap={false} color="textSecondary">
-                      {`This is a OPEN SOURCE demo application that demonstartes the usage of the rmw-shell library 
-                    with react, Material-UI and firebase.  `}
+                      {`Add and be followed.  Get asked questions and see which friends you are most like. `}
                       <br />
-                      {` This demo has no purpose to do something as an app. 
-                    It is here just to show how everthing works together. `}
+                      {` This is a question app that compares your answers to the answers of your friends.  You will be amazed at what you find to have in common with those around you.  `}
                     </Typography>
                   </CardContent>
                   <CardActions>
