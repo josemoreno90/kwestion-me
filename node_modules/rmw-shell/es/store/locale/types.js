@@ -1,0 +1,1 @@
+export var UPDATE_LOCALE = 'locale.UPDATE_LOCALE';

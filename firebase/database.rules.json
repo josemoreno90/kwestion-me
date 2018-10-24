@@ -1,17 +1,17 @@
 {
   "rules": {
-    "admins": {
-      ".read": "auth != null",
-      "$uid": {
-        ".write": "auth != null || root.child('admins/'+auth.uid).exists()"
-      }
-    },
-    "predefined_chat_messages": {
-      ".read": "auth != null",
-      "$uid": {
-        ".write": "auth != null"
-      }
-    },
+     "admins": {
+       ".read": "auth != null",
+       "$uid": {
+         ".write": "root.child('admins/'+auth.uid).exists()"
+       }
+     },
+     "predefined_chat_messages": {
+       ".read": "auth != null",
+       "$uid": {
+         ".write": "auth != null"
+       }
+     },
     "users": {
       ".read": "auth != null",
       "$uid": {

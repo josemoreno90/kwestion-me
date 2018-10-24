@@ -1,0 +1,5 @@
+var namespace = 'DRAWER';
+
+export var ON_DRAWER_OPEN_CHANGED = namespace + '@ON_DRAWER_OPEN_CHANGED';
+export var ON_DRAWER_MOBILE_OPEN_CHANGED = namespace + '@ON_DRAWER_MOBILE_OPEN_CHANGED';
+export var ON_DRAWER_USE_MINIFIED_CHANGED = namespace + '@ON_DRAWER_USE_MINIFIED_CHANGED';
