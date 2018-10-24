@@ -199,7 +199,7 @@ class LandingPage extends Component {
           <div className={classes.hero}>
             <div className={classes.content}>
               <img
-                src='https://www.maxpixel.net/static/photo/1x/Duplicate-Request-Note-Matter-Question-Mark-2405197.jpg'
+                src='https://images.freeimages.com/images/large-previews/356/what-s-that-1527433.jpg'
                 alt='Material-UI Logo'
                 className={classes.logo}
               />
