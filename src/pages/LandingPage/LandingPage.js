@@ -183,7 +183,7 @@ class LandingPage extends Component {
                 name='github'
                 aria-label='Open Github'
                 color='inherit'
-                href='https://weWillCode.com'
+                href='https://github.com/josemoreno90/kwestion-me'
                 target='_blank'
                 rel='noopener'
               >
@@ -199,7 +199,7 @@ class LandingPage extends Component {
           <div className={classes.hero}>
             <div className={classes.content}>
               <img
-                src='/rmw.svg'
+                src='https://www.maxpixel.net/static/photo/1x/Duplicate-Request-Note-Matter-Question-Mark-2405197.jpg'
                 alt='Material-UI Logo'
                 className={classes.logo}
               />
@@ -240,7 +240,7 @@ class LandingPage extends Component {
                     <br />
                     <Typography  >{`Life is about questions and getting to know each other.  Kwestion-Me does just that.`}</Typography>
                     <br />
-                    <Typography className={classes.pos} color="textSecondary"> npx create-react-app test-app --scripts-version rmw-react-scripts   </Typography>
+                    <Typography className={classes.pos} color="textSecondary"> Help us build and develop this.  </Typography>
                   </CardContent>
                   <CardActions>
                     <Button size="small" onClick={() => {
@@ -253,7 +253,7 @@ class LandingPage extends Component {
                   <CardContent>
                     <Typography variant="headline" component="h2">Usage</Typography>
                     <br />
-                    <Typography  >{`You will be suprised at what you have in common with those in your life, and how different we can be than those closest to us`}</Typography>
+                    <Typography  >{`You will be suprised at what you have in common with those in your life, and how different we can be than those closest to us.`}</Typography>
                     <br />
                   </CardContent>
                   <CardActions>
@@ -270,12 +270,24 @@ class LandingPage extends Component {
                       {`Add and be followed.  Get asked questions and see which friends you are most like. `}
                       <br />
                       {` This is a question app that compares your answers to the answers of your friends.  You will be amazed at what you find to have in common with those around you.  `}
+                      <br />
+                      { ` Help us develop this ;)`}
                     </Typography>
                   </CardContent>
                   <CardActions>
                     <Button size="small" onClick={() => { history.push('/signin') }} >Get started</Button>
                   </CardActions>
                 </Card>
+                <Typography
+                  variant='headline'
+                  component='a'
+                  href="https://weWillCode.com"
+                  color='inherit'
+                  gutterBottom
+                  className={classes.headline}
+                >
+                  {'Learn to Code at We-Will-Code'}
+                </Typography>
               </div>
             </div>
           </div>
