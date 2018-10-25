@@ -22,12 +22,12 @@ const config = {
      messagingSenderId: "984944696837"
   },
   firebase_providers: [
-    'google.com',
-    'facebook.com',
-    'twitter.com',
-    'github.com',
-    'password',
-    'phone'
+    'google.com'
+    //  , 'facebook.com',
+    // 'twitter.com',
+    // 'github.com',
+    // 'password',
+    // 'phone'
   ],
   initial_state: {
     themeSource: {

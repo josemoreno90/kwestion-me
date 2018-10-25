@@ -199,9 +199,9 @@ class LandingPage extends Component {
           <div className={classes.hero}>
             <div className={classes.content}>
               <img
-                src='https://images.freeimages.com/images/large-previews/356/what-s-that-1527433.jpg'
+                src='/kwestion-me-logo.png'
                 alt='Material-UI Logo'
-                className={classes.logo}
+                style={{ width: "30%", height: "auto" , display: "block", marginLeft: "auto", marginRight: "auto", padding: "40px"}}
               />
               <div className={classes.text}>
                 <Typography
@@ -221,9 +221,10 @@ class LandingPage extends Component {
                   gutterBottom
                   className={classes.headline}
                 >
-                  {'A Simple Question App That Graphs Likes and Dislikes with those you call friends.'}
+                  {'A Simple Question App that compares your answers with those you call friends.'}
                 </Typography>
                 <Button
+                  style={{ textAlign:"center"}}
                   onClick={() => { history.push('/signin') }}
                   className={classes.button}
                   variant='outlined'
@@ -233,7 +234,7 @@ class LandingPage extends Component {
                 </Button>
               </div>
 
-              <div className={classes.cardsContent}>
+              <div className={classes.cardsContent} style={{ textAlign:"center"}}>
                 <Card className={classes.card}>
                   <CardContent>
                     <Typography variant="headline" component="h2">Kwestion-Me</Typography>
@@ -243,21 +244,7 @@ class LandingPage extends Component {
                     <Typography className={classes.pos} color="textSecondary"> Help us build and develop this.  </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" onClick={() => {
-                      var win = window.open('https://github.com/josemoreno90/kwestion-me', '_blank')
-                      win.focus();
-                    }} >Learn More</Button>
-                  </CardActions>
-                </Card>
-                <Card className={classes.card}>
-                  <CardContent>
-                    <Typography variant="headline" component="h2">Usage</Typography>
-                    <br />
-                    <Typography  >{`You will be suprised at what you have in common with those in your life, and how different we can be than those closest to us.`}</Typography>
-                    <br />
-                  </CardContent>
-                  <CardActions>
-                    <Button size="small" onClick={() => {
+                    <Button style={{ textAlign:"center"}} size="small" onClick={() => {
                       var win = window.open('https://github.com/josemoreno90/kwestion-me', '_blank')
                       win.focus();
                     }} >Learn More</Button>
@@ -275,12 +262,27 @@ class LandingPage extends Component {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" onClick={() => { history.push('/signin') }} >Get started</Button>
+                    <Button style={{ textAlign:"center"}} size="small" onClick={() => { history.push('/signin') }} >Get started</Button>
+                  </CardActions>
+                </Card>
+                <Card className={classes.card}>
+                  <CardContent>
+                    <Typography variant="headline" component="h2">Usage</Typography>
+                    <br />
+                    <Typography  >{`You will be suprised at what you have in common with those in your life, and how different we can be than those closest to us.`}</Typography>
+                    <br />
+                  </CardContent>
+                  <CardActions>
+                    <Button style={{ textAlign:"center"}} size="small" onClick={() => {
+                      var win = window.open('https://github.com/josemoreno90/kwestion-me', '_blank')
+                      win.focus();
+                    }} >Learn More</Button>
                   </CardActions>
                 </Card>
                 <Typography
                   variant='headline'
                   component='a'
+
                   href="https://weWillCode.com"
                   color='inherit'
                   gutterBottom
